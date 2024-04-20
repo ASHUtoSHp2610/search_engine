@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-90deg, #4a79cf, #eb6161);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333; /* Changed heading color */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#results {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.result {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result strong {
+    color: #333;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.result p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.result .document-ids,
+.result .movie-name,
+.result .subtitle {
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.result .document-ids {
+    background-color: #f0f8ff; /* Light blue background */
+}
+
+.result .movie-name {
+    background-color: #f8f0ff; /* Light purple background */
+}
+
+.result .subtitle {
+    background-color: #f8f8f8; /* Light gray background */
+}
+
+/* Add this CSS to hide the subtitle by default and style the toggle button */
+.hidden {
+    display: none;
+}
+
+.result button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.result button:hover {
+    background-color: #00796b;
+}

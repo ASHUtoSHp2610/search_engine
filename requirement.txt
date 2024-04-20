@@ -1,0 +1,5 @@
+sentence_transformers
+chromadb
+pandas
+nltk
+
