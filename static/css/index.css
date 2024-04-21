@@ -94,7 +94,14 @@ input[type="submit"]:hover {
 }
 
 .result .movie-name {
+    display: inline-block; /* Change display to inline-block */
+    padding: 5px 10px; /* Add padding */
+    margin-bottom: 10px;
     background-color: #f8f0ff; /* Light purple background */
+    border-radius: 5px;
+    text-decoration: none; /* Remove text decoration */
+    color: #000; /* Changed movie name color to black */
+    font-style: italic; /* Change font style to italic */
 }
 
 .result .subtitle {
